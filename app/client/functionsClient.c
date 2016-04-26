@@ -1,3 +1,5 @@
+/*Fecha de ultima Modificacion 26/04/2015*/
+
 #include "functionsClient.h"
 #include "../protocol/protocoloCMD.h"
 
