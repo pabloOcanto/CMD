@@ -1,2 +1,4 @@
+"Este comdigo sirve para compilar el cliente y el servidor y se debe ejecutar dentro de la carpeta build "
+"Primero de debe compilar el cliente con ./buil/server y luego el cliente con ./build/cliente con el parametro localhost"
 gcc -o ./build/server ./protocol/protocoloCMD.c ./server/tcp_server_threads.c  ./server/funciones.c -l pthread &&  gcc -o ./build/cliente ./protocol/protocoloCMD.c  ./client/functionsClient.c ./client/tcp_client.c 
 
