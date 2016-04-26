@@ -1,0 +1,2 @@
+gcc -o ./build/server ./protocol/protocoloCMD.c ./server/tcp_server_threads.c  ./server/funciones.c -l pthread &&  gcc -o ./build/cliente ./protocol/protocoloCMD.c  ./client/functionsClient.c./client/tcp_client.c 
+
